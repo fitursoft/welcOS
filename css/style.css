@@ -1,0 +1,98 @@
+* {
+	background: rgb(3,3,3);
+	color: rgb(255,255,255);
+	margin: 5px;
+	padding: 12px;
+	text-align: center;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+nav {
+	background: rgb(12,12,12);
+	color: rgb(244,244,244);
+	align-items: center;
+	text-align: center;
+}
+
+a {
+	background: rgb(12,12,12);
+	color: rgb(244,244,244);
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	font-family: sans-serif;
+	transition: .2s linear;
+}
+a:hover {
+	opacity: 80%;
+	color: rgb(190,190,255);
+	border-bottom-style: ridge;
+	transition: .2s linear;
+}
+
+.websiteurl {
+	color: rgb(200,200,255);
+	align-items: flex-start;
+	font-family: serif;
+}
+.websiteurl:hover {
+	color: rgb(255,255,255);
+	border-bottom-style: ridge;
+	border-radius: 1px; 
+}
+h3 {
+	font-family: cursive;
+	margin: 30px;
+}
+
+.downloadbtn {
+	color: black;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgb(190,190,255);
+}
+
+.downloadbtn:hover {	
+	background: rgba(190,190,190,0);
+	color: rgb(255,255,255);
+	opacity: 50%;
+	padding: 21px;
+}
+
+.downloadx64 {
+	color: black;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgb(190,190,244);
+	size: 14px;
+}
+
+.downloadx64:hover {	
+	background: rgba(190,190,190,0);
+	color: rgb(255,255,255);
+	opacity: 50%;
+	padding: 21px;
+}
+.downloadx86 {
+	color: black;
+	margin: 20px;
+	padding: 19px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgb(190,190,255);
+	size: 12px;
+}
+
+.downloadx86:hover {	
+	background: rgba(190,190,190,0);
+	color: rgb(255,255,255);
+	opacity: 50%;
+	padding: 20px;
+}
